@@ -1,0 +1,115 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+-------------------------------------------------------------------------------
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 62.5%;
+  background-color: #fff4e6;
+  color: #262626;
+  text-align: center;
+}
+
+.primary-header {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.6rem;
+  padding: 3.2rem 0 1.4rem 0;
+  letter-spacing: 0.2rem;
+}
+
+.secondary-header {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1.4rem;
+}
+
+.cat-clock {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #7a3500;
+  margin-bottom: 1.2rem;
+}
+
+.meal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.mealtime-text {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.mealtime {
+  font-size: 1.6rem;
+  list-style: none;
+  display: flex;
+  gap: 1.4rem;
+  font-weight: 500;
+  color: #7a3500;
+}
+
+.cat-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.cat-status p {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border: 5px ridge #7a3500;
+  border-radius: 2px;
+  padding: 0 1rem 0 1rem;
+  display: none;
+}
+
+.cat-status p.active,
+.cat-status img.active {
+  display: block;
+}
+
+.cat-status img {
+  width: 20rem;
+  padding: 1rem 0 3rem 0;
+  display: none;
+}
+
+.btn {
+  padding: 0.6rem 1.5rem 0.6rem 1.5rem;
+  margin-bottom: 2.4rem;
+  border: none;
+  color: #fff4e6;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: #7a3500;
+  cursor: pointer;
+}
+
+.btn-all {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
